@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+soundfile
+torch
+gradio
+resampy
+git+https://github.com/voicekit-team/T-one.git
