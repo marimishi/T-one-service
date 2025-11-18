@@ -18,4 +18,4 @@ with gr.Blocks(title="T-one Demo") as demo:
     audio.change(transcribe_gradio, inputs=audio, outputs=out)
 
 if __name__ == "__main__":
-    demo.launch(share=True)
+    demo.launch(share=True, debug=True)
